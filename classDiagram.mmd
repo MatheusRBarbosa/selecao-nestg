@@ -1,0 +1,91 @@
+classDiagram
+Arquivo --> Concurso: OneToOne
+Arquivo: number id
+Arquivo: number id_concurso
+Arquivo: string nome
+Arquivo: string descricao
+Arquivo: Date dt_upload
+Arquivo: Date dt_publish_ini
+Arquivo: Date dt_publish_fim
+Arquivo: string content
+Arquivo: string content_type
+Arquivo: string extensao
+Arquivo: string nome_fisico
+Concurso --> TiposConcurso: OneToOne
+Concurso: number id
+Concurso: number id_tipo_concurso
+Concurso: string nome
+Concurso: number ano_base
+Concurso: Date dt_inicio
+Concurso: Date dt_fim
+Concurso: string descricao
+Cronograma --> Concurso: OneToOne
+Cronograma: number id
+Cronograma: number id_concurso
+Cronograma: string nome
+Cronograma: Date dt_inicio
+Cronograma: Date dt_fim
+Cronograma: string obs
+Curso --> Ofertante: OneToOne
+Curso: number id
+Curso: number id_ofertante
+Curso: string nome
+Curso: number carga_horaria
+Curso: number vagas
+Curso: number turno
+Curso: Date dt_inicio
+Curso: Date dt_fim
+Escola --> Sre: OneToOne
+Escola --> Municipio: OneToOne
+Escola: number id
+Escola: number id_sre
+Escola: number id_municipio
+Escola: string nome
+Escola: string inep
+Escola: boolean ativo
+Escola: Date dt_cadastro
+Inscrito --> Curso: OneToOne
+Inscrito --> Concurso: OneToOne
+Inscrito: number id
+Inscrito: number id_curso
+Inscrito: number id_concurso
+Inscrito: number rm_aluno
+Inscrito: Date dt_nascimento
+Inscrito: number num_telefone
+Inscrito: Date dt_inscricao
+Inscrito: string nome_aluno
+Inscrito: number num_celular
+Inscrito: string cpf
+Inscrito: string pne
+Inscrito: number num_telefone2
+Inscrito: string email
+Inscrito: number aluno_rede
+Inscrito: string nome_mae
+InscritosConcurso --> Inscrito: OneToOne
+InscritosConcurso: number id
+InscritosConcurso: number id_inscrito
+InscritosConcurso: number numero
+InscritosConcurso: string logradouro
+InscritosConcurso: number cep
+InscritosConcurso: string bairro
+InscritosConcurso: string municipio
+InscritosConcurso: string escola
+InscritosConcurso: number media_port
+InscritosConcurso: number media_mat
+InscritosConcurso: number serie
+InscritosConcurso: number turno
+InscritosConcurso: number media_fisica
+InscritosConcurso: number media_quimica
+InscritosConcurso: number media_biologia
+Municipio: number id
+Municipio: string nome
+Ofertante --> Municipio: OneToOne
+Ofertante: number id
+Ofertante: string nome
+Ofertante: string municipio
+Ofertante: string nome_fantasia
+Ofertante: number id_municipio
+Sre: number id
+Sre: string nome
+TiposConcurso: number id
+TiposConcurso: string nome

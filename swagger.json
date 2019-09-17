@@ -1,0 +1,1602 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "",
+    "version": "0.0.1",
+    "title": "your_application_name"
+  },
+  "basePath": "/",
+  "tags": [],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/arquivo": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Arquivo"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Arquivo"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/arquivo/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Arquivo"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Arquivo"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Arquivo"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/concurso": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Concurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Concurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/concurso/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Concurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Concurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Concurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/cronograma": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Cronograma"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Cronograma"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/cronograma/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Cronograma"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Cronograma"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Cronograma"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/curso": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Curso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Curso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/curso/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Curso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Curso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Curso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/escola": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Escola"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Escola"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/escola/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Escola"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Escola"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Escola"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/inscrito": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Inscrito"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Inscrito"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/inscrito/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Inscrito"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Inscrito"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Inscrito"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/inscritosconcurso": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "InscritosConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "InscritosConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/inscritosconcurso/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "InscritosConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "InscritosConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "InscritosConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/municipio": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Municipio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Municipio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/municipio/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Municipio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Municipio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Municipio"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/municipiosabrangentes": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "MunicipiosAbrangentes"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "MunicipiosAbrangentes"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/municipiosabrangentes/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "MunicipiosAbrangentes"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "MunicipiosAbrangentes"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "MunicipiosAbrangentes"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/ofertante": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Ofertante"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Ofertante"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/ofertante/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Ofertante"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Ofertante"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Ofertante"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/series": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Series"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Series"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/series/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Series"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Series"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Series"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/sre": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Sre"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "Sre"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/sre/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "Sre"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "Sre"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "Sre"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/tiposconcurso": {
+      "get": {
+        "summary": "Find all",
+        "description": "Find all records of this entity",
+        "responses": {
+          "200": {
+            "description": "All records was retrieved successfully"
+          }
+        },
+        "tags": [
+          "TiposConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "post": {
+        "summary": "Create one",
+        "description": "Create an entity record",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The record was created successfully"
+          }
+        },
+        "tags": [
+          "TiposConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    },
+    "/tiposconcurso/{id}": {
+      "get": {
+        "summary": "Find one",
+        "description": "Find one record of this entity",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was retrieved successfully"
+          }
+        },
+        "tags": [
+          "TiposConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "put": {
+        "summary": "Update one",
+        "description": "Update an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was updated successfully"
+          }
+        },
+        "tags": [
+          "TiposConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      },
+      "delete": {
+        "summary": "Delete one",
+        "description": "Delete an entity record",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "description": "Record ID",
+            "type": "number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The record was deleted successfully"
+          }
+        },
+        "tags": [
+          "TiposConcurso"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+classDiagram
+BaseController *-- BaseService
+BaseService --> IBase : implements
+IBase: T[] findAll()
+IBase: T findOne(id: number)
+IBase: void createOne(object: T)
+IBase: void updateOne(id: number, object: T)
+IBase: void deleteOne(id: number)
+
